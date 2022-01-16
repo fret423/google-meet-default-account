@@ -35,5 +35,5 @@ chrome.webRequest.onBeforeRequest.addListener(function (details) {
         }
     }
 }, {
-    urls: ["https://meet.google.com/*"] 
+    urls: ["https://meet.google.com/*", "https://drive.google.com/*] 
 }, ["blocking"]);
